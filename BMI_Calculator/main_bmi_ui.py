@@ -31,6 +31,7 @@ from ttkbootstrap import Style
 def calculate_bmi():
     try:
         # Accept user input in the provided boxes
+        name = (name_entry.get()).capitalize()
         weight = float(weight_input.get())
         height = float(height_input.get())
 
@@ -42,7 +43,7 @@ def calculate_bmi():
 
         # This is executed as long as we have received the correct data
         bmi = round(weight / (height * height), 2)  # Calculate the BMI and round it to two decimal place
-        bmi_result_label.config(text=f"Your BMI is {bmi}",
+        bmi_result_label.config(text=f"Dear {name},\nYour BMI is {bmi}",
                                 foreground='green')  # This sets the text displayed on the screen to include the
         # calculated BMI value.
         bmi_classification_label.config(text=f"Your BMI Classification is '{bmi_classify(bmi)}'",
