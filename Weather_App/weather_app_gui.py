@@ -1,7 +1,7 @@
 """
 Project Name: Weather App with GUI
 Project Objective: To create weather app with a simple GUI using the "tkinterbootstrap'
- library that fetches for the GUI design and display scurrent weather data for a
+ library that fetches for the GUI design and display current weather data for a
  user-specified location using the OpenWeatherMap API
 Project Key Features: Fetching current weather data (temperature, humidity, weather description) for a specified city.
 
