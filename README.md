@@ -67,7 +67,7 @@ When the program is executed:
 
 
 
-#3 Simple Voice
+#3 Simple Voice Assistant
 
 Project Description
 ------------------
