@@ -21,7 +21,7 @@ When the program is executed:
 
 *** This program is completely basic with no GUI and is entirely command-line based.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The "main_bmi_ui.py" is the GUI version of the main.py program described above.
 The program is a modified version of main.py where a GUI feature is added to the program with the help of the tkinter and ttkbootstrap libraries
@@ -52,7 +52,7 @@ When the program is executed:
 
 *** This program is completely basic with no GUI and is entirely command-line based.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The "weather_app_gui.py" is the GUI version of the cl_weather_app.py program described above.
 The program is a modified version of cl_weather_app.py where a GUI feature is added to the program with the help of the tkinter and ttkbootstrap libraries
@@ -63,4 +63,41 @@ When the program is executed:
 
 
 
-****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+
+
+
+#3 Simple Voice
+
+Project Description
+------------------
+The "voice_assistant_cl.py" is a command-line program that generates a Goggle Speech Recognition Service based voice assitant which can reply to basic greeting queries, along with date and time inquireis.
+
+The program has five functions,
+- A function to get the current date
+- A function to get the current system time (the device being used)
+- A function to convert text to speech for the voice assistant
+- A function that listens to the user's voice input, improve accuracy of the speech, recogonizes the speech and converts it into text that can be used as a query text
+- A main function that handles the user queries
+
+When the program is executed:
+  1. The voice assistant greets the user and listens for a recognizable speech
+  2. If the user asks one of the queries listed in the program, the voice assistant replies with the appropriate pre-arranged answer.
+  3. If the user asks for date and time, the current date and time is replied back to the user in real-time by the voice assistant.
+    N.B-
+* Current Accpetable queries by the user
+     - hello
+     - what is your name?
+     - are you real?
+     - tell me the date
+     - tell me the time
+     - exit
+  
+  5. If a query not recogonized by the assistant is entered, the voice assistant will kindly request that you repeat what you said because it doesn't understand your current query. It will continue to do so until the user queries the assistant with the above listed acceptable voice queries.
+
+*** This program is completely basic with no GUI and is entirely command-line based.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
